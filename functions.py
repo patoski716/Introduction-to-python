@@ -3,15 +3,15 @@
 #Create a function
 
 
-# def sayHello(greeting):
-#     print(f'Hello my name is {greeting}')
+def sayHello(greeting):
+    print(f'Hello my name is {greeting}')
 
-# sayHello('Patrick')
+sayHello('Patrick')
 
-# def AreaOfRectangle(l,b):
-#     total = l*b
-#     print(total)
-# AreaOfRectangle(6,5)
+def AreaOfRectangle(l,b):
+    total = l*b
+    print(total)
+AreaOfRectangle(6,5)
 
 #return statement with functions
 

@@ -2,40 +2,40 @@
 
 # Create List
 numbers= [5,4,3,2]
-# print(numbers)
-# print(numbers[1])
+print(numbers)
+print(numbers[1])
 
 fruit = ['water melon','pear','mango','oranges']
-# print(fruit[3])
+print(fruit[3])
 
 #Get length
 print(len(fruit))
 
 # Append to list ( it means i want to add to the list)
-# fruits.append('Grapes')
+fruits.append('Grapes')
 
 # Remove from list
-# fruits.remove('Grapes')
+fruits.remove('Grapes')
 
-# Insert into position
-# fruits.insert(2, 'Strawberries')
+Insert into position
+fruits.insert(2, 'Strawberries')
 
 # Change value
-# fruits[0] = 'Blueberries'
+fruits[0] = 'Blueberries'
 
 # Remove with pop
-# fruits.pop(2)
+fruits.pop(2)
 
 # Reverse list
-# fruits.reverse()
+fruits.reverse()
 
 # Sort list (Alpphabetically)
-# fruits.sort()
+fruits.sort()
 
 # Reverse sort
-# fruits.sort(reverse=True)
+fruits.sort(reverse=True)
 
-# print(fruits)
+print(fruits)
 
 
 

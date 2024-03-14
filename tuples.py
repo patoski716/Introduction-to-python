@@ -9,23 +9,23 @@ fruits2 = tuple(('Apples','Oranges','Pawpaw'))
 #Single value 
 fruito = ('Apple',)
 
-# print(fruits)
-# print(type(fruits))
-# print(fruits2)
-# print(fruito)
+print(fruits)
+print(type(fruits))
+print(fruits2)
+print(fruito)
 
-# print(fruits2[0])
+print(fruits2[0])
 
 #get length
-# print(len(fruits))
+print(len(fruits))
 del fruito
 
-# fruits[1]='Pear'
-# print(fruits)
+fruits[1]='Pear'
+print(fruits)
 
 
 # A Set is a collection which is unordered and unindexed. No duplicate members.
 
 rice={'ofada','jollof','stew','fried','concosion'}
-# print(type(rice))
+print(type(rice))
 print(rice[1])

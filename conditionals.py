@@ -5,37 +5,37 @@ y=25
 
 # Comparison Operators (==, !=, >, <, >=, <=) - Used to compare values
 
-# if x>y:
-#     print(f'yes {x} is greater than {y}')
+if x>y:
+    print(f'yes {x} is greater than {y}')
 
 # If/else
-# if x<y:
-#     print(f'yes {x} is lesser than {y}')
-# else:
-#     print(f'No {x} is not lesser than {y}')
+if x<y:
+    print(f'yes {x} is lesser than {y}')
+else:
+    print(f'No {x} is not lesser than {y}')
 
 # elif
-# if y>x:
-#     print(f'Yes {y} is greater than {x}')
-# elif y==x:
-#     print(f'yes {y} is equal to {x}')
-# else:
-#     print(f'Happy Women`s Day')
+if y>x:
+    print(f'Yes {y} is greater than {x}')
+elif y==x:
+    print(f'yes {y} is equal to {x}')
+else:
+    print(f'Happy Women`s Day')
 
 # Nested if
 
-# if x > 2:
-#     if x<50:
-#         print(f'{x} is greater than 2 and lessthan 50')
+if x > 2:
+    if x<50:
+        print(f'{x} is greater than 2 and lessthan 50')
 
 # Logical operators (and, or, not) - Used to combine conditional statements
 #logical and
-# if x > 20 and x < 50:
-#     print(f'{x} is greater than 2 and lessthan 50')
+if x > 20 and x < 50:
+    print(f'{x} is greater than 2 and lessthan 50')
 
 #logical or
-# if x > 200 or x < 50:
-#     print(f'{x} is greater than 2 and lessthan 50')
+if x > 200 or x < 50:
+    print(f'{x} is greater than 2 and lessthan 50')
 
 # logical not
 if not(x==y):
